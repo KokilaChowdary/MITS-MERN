@@ -1,13 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello world!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C Kokila Chowdary | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 2.5rem;
+      text-align: center;
+      background: #020617;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+    }
+
+    header p {
+      color: #94a3b8;
+      margin-top: .5rem;
+    }
+
+    section {
+      padding: 3rem 10%;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #38bdf8;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #1e293b;
+      margin: .4rem;
+      padding: .5rem 1rem;
+      border-radius: 20px;
+      font-size: .9rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #020617;
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: .5rem;
+      color: #e5e7eb;
+    }
+
+    .card p {
+      color: #cbd5f5;
+      font-size: .95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #020617;
+      color: #64748b;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Helloo</h1>
-    <h2>worldd</h2>
+
+<header>
+  <h1>C. Kokila Chowdary</h1>
+  <p>Cyber Security Student | Java & Spring Boot Developer</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a B.Tech Computer Science student specializing in Cyber Security.
+    I enjoy building real-world systems involving secure backend development, and computer vision.  
+    My focus is on understanding concepts deeply and applying them to practical projects.
+  </p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Java</span>
+    <span>Spring Boot</span>
+    <span>JWT Authentication</span>
+    <span>SQL & DBMS</span>
+    <span>Cybersecurity Fundamentals</span>
+    <span>YOLOv8</span>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>Fraud Detection System</h3>
+      <p>
+        Built a machine learning–based fraud detection system to identify suspicious
+        transactions using historical data.  
+        Focused on feature analysis, classification models, and improving detection accuracy
+        while minimizing false positives.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>YOLOv8 Object Detection on Drone Footage</h3>
+      <p>
+        Implemented an end-to-end object detection and tracking pipeline using YOLOv8
+        on real drone video data.  
+        Included frame extraction, annotation, model training, inference, and BYTETrack-based
+        multi-object tracking with temporal smoothing.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Spring Boot Authentication System (JWT)</h3>
+      <p>
+        Developed a secure authentication system using Spring Boot and Spring Security.
+        Implemented signup, login, JWT access & refresh tokens, and role-based authorization
+        for protected REST APIs.
+      </p>
+    </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: ckokilachowdary@gmail.com</p>
+  <p>GitHub:
+    <a href="https://github.com/KokilaChowdary" target="_blank">
+      https://github.com/KokilaChowdary
+    </a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 C Kokila Chowdary. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
-
